@@ -53,6 +53,8 @@
     
     NSString *strLegalPath = [[NSBundle mainBundle] pathForResource:@"LegalText" ofType:@"plist"];
     self.m_dic = [[NSMutableDictionary alloc] initWithContentsOfFile:strLegalPath];
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
