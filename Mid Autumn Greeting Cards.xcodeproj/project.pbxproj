@@ -17,8 +17,8 @@
 		64010CB3251443FB00F918C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64010CB2251443FB00F918C3 /* main.m */; };
 		64010CBF251495C500F918C3 /* LegalText.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64010CBE251495C500F918C3 /* LegalText.plist */; };
 		64010CC2251498B000F918C3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64010CC1251498B000F918C3 /* DetailViewController.m */; };
-		64010CC5251498D700F918C3 /* EcardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64010CC4251498D700F918C3 /* EcardsViewController.m */; };
 		64010CC82514B7A400F918C3 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64010CC72514B7A400F918C3 /* MainNavigationViewController.m */; };
+		649C53BA2515ABC9007F1FE0 /* EcardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C53B92515ABC9007F1FE0 /* EcardsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +40,9 @@
 		64010CC0251498B000F918C3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		64010CC1251498B000F918C3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		64010CC3251498D700F918C3 /* EcardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcardsViewController.h; sourceTree = "<group>"; };
-		64010CC4251498D700F918C3 /* EcardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcardsViewController.m; sourceTree = "<group>"; };
 		64010CC62514B7A400F918C3 /* MainNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
 		64010CC72514B7A400F918C3 /* MainNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		649C53B92515ABC9007F1FE0 /* EcardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcardsViewController.m; sourceTree = "<group>"; };
 		670E077C5FE83BAA067E201D /* Pods-Mid Autumn Greeting Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mid Autumn Greeting Cards.release.xcconfig"; path = "Target Support Files/Pods-Mid Autumn Greeting Cards/Pods-Mid Autumn Greeting Cards.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 				64010CC0251498B000F918C3 /* DetailViewController.h */,
 				64010CC1251498B000F918C3 /* DetailViewController.m */,
 				64010CC3251498D700F918C3 /* EcardsViewController.h */,
-				64010CC4251498D700F918C3 /* EcardsViewController.m */,
+				649C53B92515ABC9007F1FE0 /* EcardsViewController.m */,
 				64010CC62514B7A400F918C3 /* MainNavigationViewController.h */,
 				64010CC72514B7A400F918C3 /* MainNavigationViewController.m */,
 			);
@@ -235,9 +235,9 @@
 			files = (
 				64010CC2251498B000F918C3 /* DetailViewController.m in Sources */,
 				64010CA8251443FA00F918C3 /* ViewController.m in Sources */,
+				649C53BA2515ABC9007F1FE0 /* EcardsViewController.m in Sources */,
 				64010CA2251443FA00F918C3 /* AppDelegate.m in Sources */,
 				64010CB3251443FB00F918C3 /* main.m in Sources */,
-				64010CC5251498D700F918C3 /* EcardsViewController.m in Sources */,
 				64010CC82514B7A400F918C3 /* MainNavigationViewController.m in Sources */,
 				64010CA5251443FA00F918C3 /* SceneDelegate.m in Sources */,
 			);

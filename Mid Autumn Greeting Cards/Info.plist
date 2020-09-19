@@ -60,6 +60,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs permission to write photos...</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-5741638870954092~6132248250</string>
 </dict>
