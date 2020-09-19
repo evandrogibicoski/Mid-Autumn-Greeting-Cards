@@ -24,7 +24,8 @@
     UIButton *btn = (UIButton*)sender;
     
     UIImage *image = btn.currentBackgroundImage;
-    NSArray *activityItems = @[image];
+    NSString *message = @"test";
+    NSArray *activityItems = @[image, message];
     UIActivityViewController *activityViewControntroller = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:nil];
     activityViewControntroller.excludedActivityTypes = @[];
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
