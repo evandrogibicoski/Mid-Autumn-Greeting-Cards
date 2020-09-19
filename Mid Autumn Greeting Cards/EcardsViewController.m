@@ -7,6 +7,7 @@
 //
 
 #import "EcardsViewController.h"
+#import "ShareViewController.h"
 
 @interface EcardsViewController ()
 
@@ -19,21 +20,11 @@
     // Do any additional setup after loading the view.
 }
 
-
-- (IBAction)share:(id)sender {
+#pragma mark - Navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    ShareViewController *shareVC = [segue destinationViewController];
     UIButton *btn = (UIButton*)sender;
-    
-    UIImage *image = btn.currentBackgroundImage;
-    NSString *message = @"test";
-    NSArray *activityItems = @[image, message];
-    UIActivityViewController *activityViewControntroller = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:nil];
-    activityViewControntroller.excludedActivityTypes = @[];
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        activityViewControntroller.popoverPresentationController.sourceView = self.view;
-        activityViewControntroller.popoverPresentationController.sourceRect = CGRectMake(self.view.bounds.size.width/2, self.view.bounds.size.height/4, 0, 0);
-    }
-    [self presentViewController:activityViewControntroller animated:true completion:nil];
-    
+    shareVC.shareImage = btn.currentBackgroundImage;
 }
 
 

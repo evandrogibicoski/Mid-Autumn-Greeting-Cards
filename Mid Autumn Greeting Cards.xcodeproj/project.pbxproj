@@ -19,6 +19,7 @@
 		64010CC2251498B000F918C3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64010CC1251498B000F918C3 /* DetailViewController.m */; };
 		64010CC82514B7A400F918C3 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64010CC72514B7A400F918C3 /* MainNavigationViewController.m */; };
 		649C53BA2515ABC9007F1FE0 /* EcardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C53B92515ABC9007F1FE0 /* EcardsViewController.m */; };
+		649C53BD2515B0DE007F1FE0 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649C53BC2515B0DE007F1FE0 /* ShareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		64010CC62514B7A400F918C3 /* MainNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
 		64010CC72514B7A400F918C3 /* MainNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
 		649C53B92515ABC9007F1FE0 /* EcardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcardsViewController.m; sourceTree = "<group>"; };
+		649C53BB2515B0DE007F1FE0 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		649C53BC2515B0DE007F1FE0 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		670E077C5FE83BAA067E201D /* Pods-Mid Autumn Greeting Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mid Autumn Greeting Cards.release.xcconfig"; path = "Target Support Files/Pods-Mid Autumn Greeting Cards/Pods-Mid Autumn Greeting Cards.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +117,8 @@
 				649C53B92515ABC9007F1FE0 /* EcardsViewController.m */,
 				64010CC62514B7A400F918C3 /* MainNavigationViewController.h */,
 				64010CC72514B7A400F918C3 /* MainNavigationViewController.m */,
+				649C53BB2515B0DE007F1FE0 /* ShareViewController.h */,
+				649C53BC2515B0DE007F1FE0 /* ShareViewController.m */,
 			);
 			path = "Mid Autumn Greeting Cards";
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 			files = (
 				64010CC2251498B000F918C3 /* DetailViewController.m in Sources */,
 				64010CA8251443FA00F918C3 /* ViewController.m in Sources */,
+				649C53BD2515B0DE007F1FE0 /* ShareViewController.m in Sources */,
 				649C53BA2515ABC9007F1FE0 /* EcardsViewController.m in Sources */,
 				64010CA2251443FA00F918C3 /* AppDelegate.m in Sources */,
 				64010CB3251443FB00F918C3 /* main.m in Sources */,

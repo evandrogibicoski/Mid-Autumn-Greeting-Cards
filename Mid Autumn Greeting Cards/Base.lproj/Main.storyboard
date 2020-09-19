@@ -244,7 +244,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="1"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="Bpy-td-uDy"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" identifier="1" id="rt1-3h-Zl0"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbi-Qz-v2a" userLabel="2">
@@ -254,7 +254,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="2"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="XwB-VV-2fp"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="8dI-aC-VMt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHO-Ct-Gh9" userLabel="3">
@@ -264,7 +264,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="3"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="kac-DF-jSC"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="16B-ok-BtP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHB-CW-Ht0" userLabel="4">
@@ -274,7 +274,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="4"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="UD1-mV-Akf"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="zAo-uN-som"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trm-Ef-u1v" userLabel="5">
@@ -284,7 +284,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="5"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="FXS-Qk-dd6"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="c4w-zG-Mpr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8P-nW-sWk" userLabel="6">
@@ -294,7 +294,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="6"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="ueZ-dU-xay"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="kqr-dp-dFn"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9B2-EC-nTf" userLabel="7">
@@ -304,7 +304,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="7"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="pYr-f6-mPd"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="Vwi-2W-2wX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuw-7v-iLc" userLabel="8">
@@ -314,7 +314,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="8"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="f5A-Wn-ocg"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="r3a-cA-ypC"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DN-91-qXa" userLabel="9">
@@ -324,7 +324,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="9"/>
                                                 <connections>
-                                                    <action selector="share:" destination="DAv-LD-TDR" eventType="touchUpInside" id="4Pq-qR-cPw"/>
+                                                    <segue destination="bfg-yX-BKH" kind="showDetail" id="XyW-If-i7L"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -386,6 +386,90 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pHA-RH-S5F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1857.9710144927537" y="137.94642857142856"/>
+        </scene>
+        <!--Share View Controller-->
+        <scene sceneID="ax7-8E-JXS">
+            <objects>
+                <viewController id="bfg-yX-BKH" customClass="ShareViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JXr-xQ-WSx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-CO-h8E">
+                                <rect key="frame" x="324" y="29" width="60" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="g7N-Ph-JBS"/>
+                                    <constraint firstAttribute="width" constant="60" id="qOP-Jy-Dw2"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="square.and.arrow.up" catalog="system"/>
+                                <connections>
+                                    <action selector="share:" destination="bfg-yX-BKH" eventType="touchUpInside" id="NO6-O7-4JW"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K5y-eA-J2m" userLabel="ScrollView">
+                                <rect key="frame" x="0.0" y="98" width="414" height="710"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yIt-X9-1p7" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Za9-gJ-lgk">
+                                                <rect key="frame" x="30" y="12" width="354" height="354"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Za9-gJ-lgk" secondAttribute="height" id="RDo-ce-SHE"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ccA-J4-D3r">
+                                                <rect key="frame" x="30" y="374" width="354" height="596"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="ccA-J4-D3r" secondAttribute="bottom" constant="30" id="OVe-JJ-seC"/>
+                                            <constraint firstItem="Za9-gJ-lgk" firstAttribute="top" secondItem="yIt-X9-1p7" secondAttribute="top" constant="12" id="Qaz-bn-FMV"/>
+                                            <constraint firstItem="ccA-J4-D3r" firstAttribute="top" secondItem="Za9-gJ-lgk" secondAttribute="bottom" constant="8" id="RjA-oq-eM6"/>
+                                            <constraint firstAttribute="height" constant="1000" id="VpE-6k-YBt"/>
+                                            <constraint firstItem="ccA-J4-D3r" firstAttribute="leading" secondItem="yIt-X9-1p7" secondAttribute="leading" constant="30" id="ZMo-wN-u3w"/>
+                                            <constraint firstItem="Za9-gJ-lgk" firstAttribute="leading" secondItem="yIt-X9-1p7" secondAttribute="leading" constant="30" id="cFp-kq-2PK"/>
+                                            <constraint firstAttribute="trailing" secondItem="Za9-gJ-lgk" secondAttribute="trailing" constant="30" id="qYK-rF-zkY"/>
+                                            <constraint firstAttribute="trailing" secondItem="ccA-J4-D3r" secondAttribute="trailing" constant="30" id="yWP-sS-yri"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="yIt-X9-1p7" secondAttribute="trailing" id="1xW-Gg-qFK"/>
+                                    <constraint firstAttribute="bottom" secondItem="yIt-X9-1p7" secondAttribute="bottom" id="52N-yQ-U1q"/>
+                                    <constraint firstItem="yIt-X9-1p7" firstAttribute="leading" secondItem="K5y-eA-J2m" secondAttribute="leading" id="5Yl-oR-kRT"/>
+                                    <constraint firstItem="yIt-X9-1p7" firstAttribute="top" secondItem="K5y-eA-J2m" secondAttribute="top" id="ERc-LX-2Wn"/>
+                                    <constraint firstItem="yIt-X9-1p7" firstAttribute="width" secondItem="K5y-eA-J2m" secondAttribute="width" id="L3c-fO-G5S"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="kCL-r9-ZhI"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="LEb-SY-Ua4"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="K5y-eA-J2m" firstAttribute="leading" secondItem="DFF-ro-0GS" secondAttribute="leading" id="2qX-L3-gh1"/>
+                            <constraint firstItem="YT0-CO-h8E" firstAttribute="top" secondItem="DFF-ro-0GS" secondAttribute="top" constant="30" id="4Pa-Jw-MwB"/>
+                            <constraint firstItem="DFF-ro-0GS" firstAttribute="bottom" secondItem="K5y-eA-J2m" secondAttribute="bottom" id="9Nc-KB-6ao"/>
+                            <constraint firstItem="DFF-ro-0GS" firstAttribute="trailing" secondItem="YT0-CO-h8E" secondAttribute="trailing" constant="30" id="EZo-e6-y64"/>
+                            <constraint firstItem="K5y-eA-J2m" firstAttribute="top" secondItem="YT0-CO-h8E" secondAttribute="bottom" constant="8" id="Lpm-pO-YbY"/>
+                            <constraint firstItem="DFF-ro-0GS" firstAttribute="trailing" secondItem="K5y-eA-J2m" secondAttribute="trailing" id="tzE-pF-WTR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DFF-ro-0GS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dE0-Z7-jnd"/>
+                    <connections>
+                        <outlet property="imgShare" destination="Za9-gJ-lgk" id="kXh-KK-Xbh"/>
+                        <outlet property="txtMessage" destination="ccA-J4-D3r" id="yLG-mV-vug"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sU3-00-gOv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2624.6376811594205" y="137.94642857142856"/>
         </scene>
         <!--About-->
         <scene sceneID="0cv-R8-cN0">
@@ -455,9 +539,11 @@
         <image name="bow" width="48" height="48"/>
         <image name="ecards" width="48" height="48"/>
         <image name="moon" width="48" height="48"/>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
         <image name="wishes" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="cUW-C7-ZtI"/>
+        <segue reference="c4w-zG-Mpr"/>
     </inferredMetricsTieBreakers>
 </document>
